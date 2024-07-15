@@ -4,6 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-size: cover;
 }
 
 .title{
@@ -20,7 +21,7 @@ body{
 .subtitle {
     background-color: #272626ce;
     width: 370px;
-    margin: 10px 0px 17px;
+    margin: 10px 0px 28px;
     border-bottom: 1px solid #eee;
 }
 
@@ -29,4 +30,33 @@ body{
     text-align: center;
     font-family: Arial;
     font-size: 15px;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 800px;
+    max-width: fit-content;
+}
+
+.section div{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0;
+    border: 8px solid #eee;
+}
+
+.section h3{
+    background-color: #272626ce;
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 250px;
+    height: 40px;
 }
